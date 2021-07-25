@@ -1,7 +1,7 @@
-import * as React from "react"
+import * as React from "react";
+import { Link } from "gatsby";
 import PageLayout from "../components/PageLayout";
 
-// markup
 const AboutPage = () => {
   return (
     <PageLayout>
@@ -9,6 +9,7 @@ const AboutPage = () => {
         <h1>
           About Page
         </h1>
+        <Link to="/">Go back to the homepage</Link>
       </main>
     </PageLayout>
   )

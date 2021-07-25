@@ -2,8 +2,8 @@ import * as React from "react"
 
 import PageLayout from "../components/PageLayout";
 import * as Styles from "../styles/index";
+import "../styles/global.css";
 
-// markup
 const IndexPage = () => {
   return (
     <PageLayout>
